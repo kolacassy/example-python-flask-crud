@@ -53,6 +53,7 @@ To make the flask app visible from your public IP, run the command with the --ho
 ```
 flask run --host=0.0.0.0
 ```
+You can now view your application from your browser on your public IP
 
 ## License
 
