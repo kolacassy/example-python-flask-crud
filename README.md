@@ -20,6 +20,12 @@ git clone https://github.com/gurkanakdeniz/example-flask-crud.git
 cd example-flask-crud/
 ```
 ```
+pip install flask
+```
+```
+sudo apt install python3.8-venv
+```
+```
 python3 -m venv venv
 ```
 ```
@@ -43,7 +49,7 @@ flask db migrate -m "entries table"
 ```
 flask db upgrade
 ```
-### To make the flask app visible from your public IP, run the command with the --host part
+To make the flask app visible from your public IP, run the command with the --host part
 ```
 flask run --host=0.0.0.0
 ```
