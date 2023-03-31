@@ -43,8 +43,9 @@ flask db migrate -m "entries table"
 ```
 flask db upgrade
 ```
+### To make the flask app visible from your public IP, run the command with the --host part
 ```
-flask run
+flask run --host=0.0.0.0
 ```
 
 ## License
